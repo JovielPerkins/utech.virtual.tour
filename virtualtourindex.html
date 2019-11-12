@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<title>uTour</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: "Raleway", sans-serif
+    }
+    
+    .topnav {
+        overflow: hidden;
+        background-color: #000033;
+        position: relative;
+    }
+    
+    .topnav #myLinks {
+        display: none;
+    }
+    
+    .topnav a {
+        float: left;
+        color: #ffcc00;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a.icon {
+        float: right;
+    }
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        color: #000033;
+    }
+    
+    .active {
+        background-color: #ffcc00;
+        color: white;
+    }
+</style>
+
+
+
+<body class="w3-light-grey">
+
+    <!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+    <div class="w3-content" style="max-width:1400px">
+
+        <!-- Header -->
+
+        <h1 align="center"><b></b> <img src="free-pin-icon-9.jpg" alt="Flowers in Chania" width="4%" height="4%">uTour</b>
+        </h1>
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <div id="myLinks">
+                <a href="#360Tour">360 Tour</a>
+                <a href="#CampusMap">Campus Map</a>
+                <a href="#VirtualTour">Avatar Tour</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <b><p align="center">THE OFFICIAL VIRTUAL CAMPUS TOOL FOR THE UNIVERSITY OF TEHNOLOGY, JAMAICA</p></b>
+
+        <!-- Grid -->
+        <div class="w3-row">
+
+            <!-- Blog entries -->
+            <div class="w3-col l8 s12">
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                        <h3><b>360 VIRTUAL TOUR</b></h3>
+                        <p id="360Tour"></p>
+
+                    </div>
+
+
+
+                    <iframe width="100%" height="480px" src="https://poly.google.com/view/ehIPpbnd2CD/embed?chrome=min" frameborder="0" style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;" allowfullscreen mozallowfullscreen="true"
+                        webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+                    <h5 align="center">This shows photographs illustrating different areas on UTECH'S CAMPUS</span>
+                    </h5>
+
+                </div>
+                <hr>
+
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                        <h3><b>CAMPUS MAP</b></h3>
+                        <p id="CampusMap"></p>
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1IfBLf18xRZPKL5LPXcGa1oi0_NQgeRlM" width="100%" height="480px"></iframe>
+                        <h5 align="center">The above is a satellite map which incorportes markers of assorted colours pointing to the different places across UTECH'S CAMPUS.</span>
+                        </h5>
+                    </div>
+
+
+                </div>
+                <!-- END BLOG ENTRIES -->
+
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+
+                    <div class="w3-container">
+                        <h3><b>VIRTUAL TOUR WITH AVATAR</b></h3>
+                        <p id="VirtualTour"></p>
+                        <video height="100%" width="100%" controls>
+                                <source src="SVID_20191112_105327_1.mp4"type="video/mp4">
+                                <source src="SVID_20191112_105327_1.webm"type="video/webm">
+                                    <source src="SVID_20191112_105327_1.ogv"  type="video/ogg">
+                        </video>
+                        <h5>This is a video show casing a virtual tour of the campus with the utilization of an avatar as tour guide. </h5>
+                    </div>
+
+
+                </div>
+                <!-- END BLOG ENTRIES -->
+            </div>
+
+            <!-- Introduction menu -->
+            <div class="w3-col l4">
+                <!-- About Card -->
+                <div class="w3-card w3-margin w3-margin-top">
+                    <img src="AR-311049899.jpg" style="width:100%">
+                    <div class="w3-container w3-white">
+                        <h4><b>WELCOME</b></h4>
+                        <p align="justify">UTECH, Ja is dedicated to improving its customer experience by inviting prospective students as well returning students to benefit from an understanding of what is happening in and around the campus through the utilization of its
+                            virtual tour tools.
+                        </p>
+                    </div>
+                </div>
+                <hr>
+
+
+                <hr>
+
+                <!-- Labels / tags -->
+                <div class="w3-card w3-margin">
+                    <div class="w3-container w3-padding">
+                        <h4><b>TIP &#129300;:FINDING YOUR CLASSROOM</h4></b>
+                    </div>
+                    <div class="w3-container w3-white">
+                        <p>
+                            <p>For Example, lets look for the class 2B1.
+                                <ol align="justify">
+                                    <li>'2', is the building number. All faculty and school buildings are numbered. These numbers are found on the outside of each building. For example, the building number for The School of Computing and Information Technology
+                                        is Two (2).</li>
+                                    <li>'B', is the floor location. Each floor is classified alphabetically in ascending order. For example, the first floor would be 'A' and the second floor 'B'. </li>
+                                    <li>'1', is the classroom's number. So if there are 15 classes on floor B. They are numbered from 1-15. Example, 2B1, 2B2, 2B3, etc. </li>
+                                </ol>
+                            </p>
+
+
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Posts -->
+                <div class="w3-card w3-margin">
+                    <div class="w3-container w3-padding">
+                        <h4>ROUTES FOR UNIVERSITY EVENTS</h4>
+                    </div>
+                    <ul class="w3-ul w3-hoverable w3-white">
+
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1fqRVWzyutBRilgzjpjDtHhEFCE0sPsIZ" width="400" height="480"></iframe>
+
+                    </ul>
+                </div>
+                <div class="w3-card w3-margin">
+
+                    <ul class="w3-ul w3-hoverable w3-white">
+
+                        <img src="IMG_20191110_113341.jpg" alt="Utech Maps" width="100%" height="400px">
+
+                    </ul>
+                </div>
+
+
+                <!-- END Introduction Menu -->
+            </div>
+
+            <!-- END GRID -->
+        </div><br>
+
+        <!-- END w3-content -->
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+        <div class="topnav">
+            <div id="myLinkss">
+                <a href="#360Tour">360 Tour</a>
+                <a href="#CampusMap">Campus Map</a>
+                <a href="#VirtualTour">Avatar Tour</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunctions()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        function myFunctions() {
+            var x = document.getElementById("myLinkss");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
